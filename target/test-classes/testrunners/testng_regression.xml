@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My Store Test Suite" verbose="4" thread-count="3"
+	parallel="tests">
+
+	
+
+	<test name="My Store Home Page Test">
+		
+		<classes>
+			<class name="com.qa.mystore.tests.HomePageTest" />
+		</classes>
+	</test>
+
+
+	<test name="My Store Login Page Test ">
+		
+		<classes>
+			<class name="com.qa.mystore.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="My Store My Account Page Test ">
+	
+		<classes>
+			<class name="com.qa.mystore.tests.MyAccountPageTest" />
+		</classes>
+	</test>
+
+	
+
+	<!-- <test name="Open Cart Product Info Page Test"> <classes> <class name="com.qa.opencart.tests.ProductInfoPageTest" 
+		/> </classes> </test> -->
+
+
+	<!-- <test name="Open Cart Registration Page Test"> <classes> <class name="com.qa.opencart.tests.RegistrationPageTest" 
+		/> </classes> </test> -->
+
+</suite>

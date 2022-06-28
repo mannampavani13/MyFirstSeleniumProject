@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-My_Store_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">My Store Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-My_Store_Test_Suite" class="navigator-link ">
+                    <span>F:\June2022_MyStore_Project\src\test\resources\testrunners\testng_regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-My_Store_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-My_Store_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-My_Store_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-My_Store_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-My_Store_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-My_Store_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 2 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-My_Store_Test_Suite" class="hide-methods failed suite-My_Store_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-My_Store_Test_Suite -->
+                      <a href="#" panel-name="suite-My_Store_Test_Suite" class="show-methods failed suite-My_Store_Test_Suite"> (show)</a> <!-- show-methods failed suite-My_Store_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-My_Store_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="addToCartTest(Dresses, Printed Summer Dress)">addToCartTest(Dresses, Printed Summer Dress)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="addToCartTest(T-shirts, Faded Short Sleeve T-shirts)">addToCartTest(T-shirts, Faded Short Sleeve T-shirts)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-My_Store_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-My_Store_Test_Suite" class="hide-methods passed suite-My_Store_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-My_Store_Test_Suite -->
+                      <a href="#" panel-name="suite-My_Store_Test_Suite" class="show-methods passed suite-My_Store_Test_Suite"> (show)</a> <!-- show-methods passed suite-My_Store_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-My_Store_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.HomePageTest" class="method navigator-link" hash-for-method="cickOnSignInTest">cickOnSignInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.LoginPageTest" class="method navigator-link" hash-for-method="doLoginTest">doLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="doSearchTest(Dresses)">doSearchTest(Dresses)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="doSearchTest(T-shirts)">doSearchTest(T-shirts)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.LoginPageTest" class="method navigator-link" hash-for-method="getLoginPageTitleTest">getLoginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.HomePageTest" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.LoginPageTest" class="method navigator-link" hash-for-method="isCreateAnAccoutbtnExistTest">isCreateAnAccoutbtnExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="isDressesLinkExisteTest">isDressesLinkExisteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.LoginPageTest" class="method navigator-link" hash-for-method="isForgotPasswordExistTest">isForgotPasswordExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.HomePageTest" class="method navigator-link" hash-for-method="isSignInExistTest">isSignInExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.LoginPageTest" class="method navigator-link" hash-for-method="isSignInbtnExistTest">isSignInbtnExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="isSignOutExistTest">isSignOutExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="isTshirtsLinkExisteTest">isTshirtsLinkExisteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="isWomenLinkExistTest">isWomenLinkExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Store_Test_Suite" title="com.qa.mystore.tests.MyAccountPageTest" class="method navigator-link" hash-for-method="myAccountPageNameTest">myAccountPageNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-My_Store_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-My_Store_Test_Suite" class="panel My_Store_Test_Suite">
+          <div class="suite-My_Store_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.mystore.tests.MyAccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartTest(Dresses, Printed Summer Dress)">
+                  </a> <!-- addToCartTest(Dresses, Printed Summer Dress) -->
+                  <span class="method-name">addToCartTest</span>
+                  <span class="parameters">(Dresses, Printed Summer Dress)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@type=&apos;submit&apos; and @name=&apos;Submit&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-449DJMC&apos;, ip: &apos;192.168.29.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83ba6748feedbd3914eb6607d655883c, findElement {using=xpath, value=//button[@type=&apos;submit&apos; and @name=&apos;Submit&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59288/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83ba6748feedbd3914eb6607d655883c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at com.qa.mystore.utils.ElementUtil.getElement(ElementUtil.java:71)
+	at com.qa.mystore.utils.ElementUtil.doClick(ElementUtil.java:108)
+	at com.qa.mystore.pages.productInfoPage.doClickOnAddToCart(productInfoPage.java:28)
+	at com.qa.mystore.tests.MyAccountPageTest.addToCartTest(MyAccountPageTest.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartTest(T-shirts, Faded Short Sleeve T-shirts)">
+                  </a> <!-- addToCartTest(T-shirts, Faded Short Sleeve T-shirts) -->
+                  <span class="method-name">addToCartTest</span>
+                  <span class="parameters">(T-shirts, Faded Short Sleeve T-shirts)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@type=&apos;submit&apos; and @name=&apos;Submit&apos;]&quot;}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-449DJMC&apos;, ip: &apos;192.168.29.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83ba6748feedbd3914eb6607d655883c, findElement {using=xpath, value=//button[@type=&apos;submit&apos; and @name=&apos;Submit&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59288/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83ba6748feedbd3914eb6607d655883c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at com.qa.mystore.utils.ElementUtil.getElement(ElementUtil.java:71)
+	at com.qa.mystore.utils.ElementUtil.doClick(ElementUtil.java:108)
+	at com.qa.mystore.pages.productInfoPage.doClickOnAddToCart(productInfoPage.java:28)
+	at com.qa.mystore.tests.MyAccountPageTest.addToCartTest(MyAccountPageTest.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Store_Test_Suite-class-failed -->
+          <div class="suite-My_Store_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.mystore.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cickOnSignInTest">
+                  </a> <!-- cickOnSignInTest -->
+                  <span class="method-name">cickOnSignInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSignInExistTest">
+                  </a> <!-- isSignInExistTest -->
+                  <span class="method-name">isSignInExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Store_Test_Suite-class-passed -->
+          <div class="suite-My_Store_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.mystore.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLoginTest">
+                  </a> <!-- doLoginTest -->
+                  <span class="method-name">doLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLoginPageTitleTest">
+                  </a> <!-- getLoginPageTitleTest -->
+                  <span class="method-name">getLoginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCreateAnAccoutbtnExistTest">
+                  </a> <!-- isCreateAnAccoutbtnExistTest -->
+                  <span class="method-name">isCreateAnAccoutbtnExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isForgotPasswordExistTest">
+                  </a> <!-- isForgotPasswordExistTest -->
+                  <span class="method-name">isForgotPasswordExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSignInbtnExistTest">
+                  </a> <!-- isSignInbtnExistTest -->
+                  <span class="method-name">isSignInbtnExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Store_Test_Suite-class-passed -->
+          <div class="suite-My_Store_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.mystore.tests.MyAccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSearchTest(Dresses)">
+                  </a> <!-- doSearchTest(Dresses) -->
+                  <span class="method-name">doSearchTest</span>
+                  <span class="parameters">(Dresses)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSearchTest(T-shirts)">
+                  </a> <!-- doSearchTest(T-shirts) -->
+                  <span class="method-name">doSearchTest</span>
+                  <span class="parameters">(T-shirts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isDressesLinkExisteTest">
+                  </a> <!-- isDressesLinkExisteTest -->
+                  <span class="method-name">isDressesLinkExisteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSignOutExistTest">
+                  </a> <!-- isSignOutExistTest -->
+                  <span class="method-name">isSignOutExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTshirtsLinkExisteTest">
+                  </a> <!-- isTshirtsLinkExisteTest -->
+                  <span class="method-name">isTshirtsLinkExisteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isWomenLinkExistTest">
+                  </a> <!-- isWomenLinkExistTest -->
+                  <span class="method-name">isWomenLinkExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myAccountPageNameTest">
+                  </a> <!-- myAccountPageNameTest -->
+                  <span class="method-name">myAccountPageNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Store_Test_Suite-class-passed -->
+        </div> <!-- panel My_Store_Test_Suite -->
+        <div panel-name="test-xml-My_Store_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\June2022_MyStore_Project\src\test\resources\testrunners\testng_regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;My Store Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;4&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;My Store Home Page Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.mystore.tests.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- My Store Home Page Test --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;My Store Login Page Test &quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.mystore.tests.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- My Store Login Page Test  --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;My Store My Account Page Test &quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.mystore.tests.MyAccountPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- My Store My Account Page Test  --&gt;
+&lt;/suite&gt; &lt;!-- My Store Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_Store_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My Store Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">My Store Home Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">My Store Login Page Test  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">My Store My Account Page Test  (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_Store_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My Store Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_Store_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My Store Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_Store_Test_Suite');
+function tableData_My_Store_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'doLoginTest')
+data.setCell(0, 2, 'com.qa.mystore.tests.LoginPageTest')
+data.setCell(0, 3, 10499);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'cickOnSignInTest')
+data.setCell(1, 2, 'com.qa.mystore.tests.HomePageTest')
+data.setCell(1, 3, 9962);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doSearchTest')
+data.setCell(2, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(2, 3, 8265);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addToCartTest')
+data.setCell(3, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(3, 3, 5843);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'homePageTitleTest')
+data.setCell(4, 2, 'com.qa.mystore.tests.HomePageTest')
+data.setCell(4, 3, 4993);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'doSearchTest')
+data.setCell(5, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(5, 3, 3025);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addToCartTest')
+data.setCell(6, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(6, 3, 2558);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'isSignInExistTest')
+data.setCell(7, 2, 'com.qa.mystore.tests.HomePageTest')
+data.setCell(7, 3, 618);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'isSignInbtnExistTest')
+data.setCell(8, 2, 'com.qa.mystore.tests.LoginPageTest')
+data.setCell(8, 3, 310);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'myAccountPageNameTest')
+data.setCell(9, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(9, 3, 186);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'isWomenLinkExistTest')
+data.setCell(10, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(10, 3, 152);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'isSignOutExistTest')
+data.setCell(11, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(11, 3, 146);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'isForgotPasswordExistTest')
+data.setCell(12, 2, 'com.qa.mystore.tests.LoginPageTest')
+data.setCell(12, 3, 119);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'isDressesLinkExisteTest')
+data.setCell(13, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(13, 3, 102);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'isTshirtsLinkExisteTest')
+data.setCell(14, 2, 'com.qa.mystore.tests.MyAccountPageTest')
+data.setCell(14, 3, 97);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'isCreateAnAccoutbtnExistTest')
+data.setCell(15, 2, 'com.qa.mystore.tests.LoginPageTest')
+data.setCell(15, 3, 93);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getLoginPageTitleTest')
+data.setCell(16, 2, 'com.qa.mystore.tests.LoginPageTest')
+data.setCell(16, 3, 30);
+window.suiteTableData['My_Store_Test_Suite']= { tableData: data, tableDiv: 'times-div-My_Store_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-My_Store_Test_Suite">
+              </div> <!-- times-div-My_Store_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_Store_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My Store Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_Store_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.mystore.tests.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clickOnCreateAccountbtnTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.mystore.tests.MyAccountPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectProductTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_Store_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.mystore.tests.MyAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.mystore.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.mystore.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.mystore.tests.MyAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">accountPageSetUp</span>
+                <span class="method-start">44370 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.mystore.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loginPageSetUp</span>
+                <span class="method-start">44370 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.mystore.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">45116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isSignInExistTest</span>
+                <span class="method-start">50209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cickOnSignInTest</span>
+                <span class="method-start">50835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60810 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.mystore.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getLoginPageTitleTest</span>
+                <span class="method-start">61448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isSignInbtnExistTest</span>
+                <span class="method-start">61504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isForgotPasswordExistTest</span>
+                <span class="method-start">61818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isCreateAnAccoutbtnExistTest</span>
+                <span class="method-start">61942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doLoginTest</span>
+                <span class="method-start">62038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72540 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.mystore.tests.MyAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">myAccountPageNameTest</span>
+                <span class="method-start">72953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isSignOutExistTest</span>
+                <span class="method-start">73142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isWomenLinkExistTest</span>
+                <span class="method-start">73296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isDressesLinkExisteTest</span>
+                <span class="method-start">73451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isTshirtsLinkExisteTest</span>
+                <span class="method-start">73556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSearchTest(Dresses)</span>
+                <span class="method-start">73668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSearchTest(T-shirts)</span>
+                <span class="method-start">81936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addToCartTest(Dresses, Printed Summer Dress)</span>
+                <span class="method-start">84978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addToCartTest(T-shirts, Faded Short Sleeve T-shirts)</span>
+                <span class="method-start">90880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93446 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

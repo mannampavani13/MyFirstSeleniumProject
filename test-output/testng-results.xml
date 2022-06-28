@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="19" passed="15" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-27T09:08:36Z" name="My Store Test Suite" finished-at="2022-06-27T09:10:11Z" duration-ms="95142">
+    <groups>
+    </groups>
+    <test started-at="2022-06-27T09:08:36Z" name="My Store Home Page Test" finished-at="2022-06-27T09:09:42Z" duration-ms="66026">
+      <class name="com.qa.mystore.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.mystore.tests.HomePageTest@71b1176b]" started-at="2022-06-27T09:08:36Z" name="setUp" finished-at="2022-06-27T09:09:20Z" duration-ms="44189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.qa.mystore.tests.HomePageTest@71b1176b]" started-at="2022-06-27T09:09:21Z" name="homePageTitleTest" finished-at="2022-06-27T09:09:26Z" duration-ms="4993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="isSignInExistTest()[pri:2, instance:com.qa.mystore.tests.HomePageTest@71b1176b]" started-at="2022-06-27T09:09:26Z" name="isSignInExistTest" finished-at="2022-06-27T09:09:27Z" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSignInExistTest -->
+        <test-method signature="cickOnSignInTest()[pri:3, instance:com.qa.mystore.tests.HomePageTest@71b1176b]" started-at="2022-06-27T09:09:27Z" name="cickOnSignInTest" finished-at="2022-06-27T09:09:37Z" depends-on-methods="com.qa.mystore.tests.HomePageTest.isSignInExistTest" duration-ms="9962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cickOnSignInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.mystore.tests.HomePageTest@71b1176b]" started-at="2022-06-27T09:09:37Z" name="tearDown" finished-at="2022-06-27T09:09:42Z" duration-ms="5207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.mystore.tests.HomePageTest -->
+    </test> <!-- My Store Home Page Test -->
+    <test started-at="2022-06-27T09:08:36Z" name="My Store Login Page Test " finished-at="2022-06-27T09:09:51Z" duration-ms="74842">
+      <class name="com.qa.mystore.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.mystore.tests.LoginPageTest@1b1473ab]" started-at="2022-06-27T09:08:36Z" name="setUp" finished-at="2022-06-27T09:09:20Z" duration-ms="44302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginPageSetUp()[pri:0, instance:com.qa.mystore.tests.LoginPageTest@1b1473ab]" started-at="2022-06-27T09:09:20Z" name="loginPageSetUp" finished-at="2022-06-27T09:09:37Z" duration-ms="17078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSetUp -->
+        <test-method signature="getLoginPageTitleTest()[pri:1, instance:com.qa.mystore.tests.LoginPageTest@1b1473ab]" started-at="2022-06-27T09:09:37Z" name="getLoginPageTitleTest" finished-at="2022-06-27T09:09:37Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPageTitleTest -->
+        <test-method signature="isSignInbtnExistTest()[pri:2, instance:com.qa.mystore.tests.LoginPageTest@1b1473ab]" started-at="2022-06-27T09:09:37Z" name="isSignInbtnExistTest" finished-at="2022-06-27T09:09:38Z" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSignInbtnExistTest -->
+        <test-method signature="isForgotPasswordExistTest()[pri:3, instance:com.qa.mystore.tests.LoginPageTest@1b1473ab]" started-at="2022-06-27T09:09:38Z" name="isForgotPasswordExistTest" finished-at="2022-06-27T09:09:38Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isForgotPasswordExistTest -->
+        <test-method signature="isCreateAnAccoutbtnExistTest()[pri:4, instance:com.qa.mystore.tests.LoginPageTest@1b1473ab]" started-at="2022-06-27T09:09:38Z" name="isCreateAnAccoutbtnExistTest" finished-at="2022-06-27T09:09:38Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCreateAnAccoutbtnExistTest -->
+        <test-method signature="doLoginTest()[pri:5, instance:com.qa.mystore.tests.LoginPageTest@1b1473ab]" started-at="2022-06-27T09:09:38Z" name="doLoginTest" finished-at="2022-06-27T09:09:48Z" duration-ms="10499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.mystore.tests.LoginPageTest@1b1473ab]" started-at="2022-06-27T09:09:48Z" name="tearDown" finished-at="2022-06-27T09:09:51Z" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.mystore.tests.LoginPageTest -->
+    </test> <!-- My Store Login Page Test  -->
+    <test started-at="2022-06-27T09:08:36Z" name="My Store My Account Page Test " finished-at="2022-06-27T09:10:11Z" duration-ms="95134">
+      <class name="com.qa.mystore.tests.MyAccountPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:08:36Z" name="setUp" finished-at="2022-06-27T09:09:20Z" duration-ms="44333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="accountPageSetUp()[pri:0, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:09:20Z" name="accountPageSetUp" finished-at="2022-06-27T09:09:49Z" duration-ms="28583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPageSetUp -->
+        <test-method signature="myAccountPageNameTest()[pri:1, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:09:49Z" name="myAccountPageNameTest" finished-at="2022-06-27T09:09:49Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccountPageNameTest -->
+        <test-method signature="isSignOutExistTest()[pri:2, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:09:49Z" name="isSignOutExistTest" finished-at="2022-06-27T09:09:49Z" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSignOutExistTest -->
+        <test-method signature="isWomenLinkExistTest()[pri:3, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:09:49Z" name="isWomenLinkExistTest" finished-at="2022-06-27T09:09:49Z" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isWomenLinkExistTest -->
+        <test-method signature="isDressesLinkExisteTest()[pri:4, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:09:49Z" name="isDressesLinkExisteTest" finished-at="2022-06-27T09:09:49Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDressesLinkExisteTest -->
+        <test-method signature="isTshirtsLinkExisteTest()[pri:5, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:09:49Z" name="isTshirtsLinkExisteTest" finished-at="2022-06-27T09:09:49Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTshirtsLinkExisteTest -->
+        <test-method signature="doSearchTest(java.lang.String)[pri:6, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:09:49Z" name="doSearchTest" data-provider="productData" finished-at="2022-06-27T09:09:58Z" duration-ms="8265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearchTest -->
+        <test-method signature="doSearchTest(java.lang.String)[pri:6, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:09:58Z" name="doSearchTest" data-provider="productData" finished-at="2022-06-27T09:10:01Z" duration-ms="3025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T-shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearchTest -->
+        <test-method signature="addToCartTest(java.lang.String, java.lang.String)[pri:8, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:10:01Z" name="addToCartTest" data-provider="selectProductData" finished-at="2022-06-27T09:10:07Z" duration-ms="5843" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Printed Summer Dress]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit' and @name='Submit']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-449DJMC', ip: '192.168.29.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83ba6748feedbd3914eb6607d655883c, findElement {using=xpath, value=//button[@type='submit' and @name='Submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59288/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83ba6748feedbd3914eb6607d655883c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit' and @name='Submit']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-449DJMC', ip: '192.168.29.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83ba6748feedbd3914eb6607d655883c, findElement {using=xpath, value=//button[@type='submit' and @name='Submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59288/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83ba6748feedbd3914eb6607d655883c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at com.qa.mystore.utils.ElementUtil.getElement(ElementUtil.java:71)
+at com.qa.mystore.utils.ElementUtil.doClick(ElementUtil.java:108)
+at com.qa.mystore.pages.productInfoPage.doClickOnAddToCart(productInfoPage.java:28)
+at com.qa.mystore.tests.MyAccountPageTest.addToCartTest(MyAccountPageTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method signature="addToCartTest(java.lang.String, java.lang.String)[pri:8, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:10:07Z" name="addToCartTest" data-provider="selectProductData" finished-at="2022-06-27T09:10:09Z" duration-ms="2558" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit' and @name='Submit']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-449DJMC', ip: '192.168.29.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83ba6748feedbd3914eb6607d655883c, findElement {using=xpath, value=//button[@type='submit' and @name='Submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59288/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83ba6748feedbd3914eb6607d655883c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit' and @name='Submit']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-449DJMC', ip: '192.168.29.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83ba6748feedbd3914eb6607d655883c, findElement {using=xpath, value=//button[@type='submit' and @name='Submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59288/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83ba6748feedbd3914eb6607d655883c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at com.qa.mystore.utils.ElementUtil.getElement(ElementUtil.java:71)
+at com.qa.mystore.utils.ElementUtil.doClick(ElementUtil.java:108)
+at com.qa.mystore.pages.productInfoPage.doClickOnAddToCart(productInfoPage.java:28)
+at com.qa.mystore.tests.MyAccountPageTest.addToCartTest(MyAccountPageTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.mystore.tests.MyAccountPageTest@5ae50ce6]" started-at="2022-06-27T09:10:09Z" name="tearDown" finished-at="2022-06-27T09:10:11Z" duration-ms="1680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.mystore.tests.MyAccountPageTest -->
+    </test> <!-- My Store My Account Page Test  -->
+  </suite> <!-- My Store Test Suite -->
+</testng-results>
